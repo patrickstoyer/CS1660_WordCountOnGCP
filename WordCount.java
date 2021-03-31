@@ -101,7 +101,7 @@ public class WordCount {
   }
 
   public static void main(String[] args) throws Exception {
-  	long	startingTime = System.currentTimeMillis();
+    long startingTime = System.currentTimeMillis();
     Configuration conf = new Configuration();
     GenericOptionsParser optionParser = new GenericOptionsParser(conf, args);
     String[] remainingArgs = optionParser.getRemainingArgs();
